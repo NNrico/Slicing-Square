@@ -1,3 +1,5 @@
+My thought on a geometric problem
+
 Q: Is it possible to cut a square A into smaller squares A1,A2,A3 using only end-to-end cuts (on A)?
 R: yes, see a grid for example.
 Q: Good, but how about cutting into little squares of different size and not all of the same size?
@@ -5,4 +7,31 @@ R: It is only possible to end-to-end cut a square into squares of the same size.
 This A1 square will have a side adjacent to another square and they both have the same size since they share a side in common. Expanding this idea to all the squares each one has the same
 size of the neighbours and being end-to-end cut only every square will have the same size. Moreover The square A can be also a rectangle or any other 2d shape. 
 
-Therefore if one wants to end-to-end cut any shape into only square (if possible) they are going to have the same size.
+Therefore if one wants to end-to-end cut any shape into only squares (if possible) the squares must have the same size.
+
+This simple realization arises from the problem of recomposing a jigsaw constituted by rectanglular pieces only. If the rectangular are only squares they must have the same size
+
+
+
+
+----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+          |          |          |          |          |          |          |          |          |          |          |          |          |          |          |
+----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
